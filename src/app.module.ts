@@ -28,7 +28,7 @@ import { AuthModule } from './auth/auth.module';
       autoLoadModels: true,
       sync: { alter: true },
       synchronize: true,
-      logging: false
+      logging: true
     }),
     AdminModule,
     StoresModule,
